@@ -1,0 +1,11 @@
+#pageText {
+	background: black;
+	color: white;
+}
+#pageText:after {
+	content: '_';
+	animation: blink 2.4s linear infinite;
+}
+#pageTextSource {
+	display: none;
+}
